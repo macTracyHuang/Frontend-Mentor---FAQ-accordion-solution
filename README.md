@@ -10,9 +10,8 @@ Users should be able to:
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 
-### Screenshot
-
-![](assets/images/sc-mywork-collapse.png)
+### Demo
+[Demo](https://mactracyhuang.github.io/Frontend-Mentor---FAQ-accordion-solution/)
 
 ### What I learned
 
