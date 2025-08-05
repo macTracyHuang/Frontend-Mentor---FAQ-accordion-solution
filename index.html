@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js" async></script>
+    <link rel="stylesheet" href="app.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | FAQ accordion</title>
+  </head>
+
+  <body>
+    <header class="hero"></header>
+    <main class="faq">
+      <div class="faq__title">
+        <h1 class="faq__heading">
+          <img src="assets/images/icon-star.svg" alt="star icon" />
+          FAQs
+        </h1>
+      </div>
+
+      <div class="faq__item">
+        <div class="faq__question">
+          <h2 class="faq__question-title">What is this project about?</h2>
+          <button class="faq__toggle">
+            <img src="assets/images/icon-plus.svg" alt="plus icon" />
+          </button>
+          <button class="faq__toggle faq__toggle--close hidden">
+            <img src="assets/images/icon-minus.svg" alt="minus icon" />
+          </button>
+        </div>
+        <div class="faq__answer hidden">
+          <p>
+            This is a coding challenge from Frontend Mentor to help developers
+            improve their frontend coding skills with projects in HTML, CSS, and
+            JavaScript.
+          </p>
+        </div>
+      </div>
+      <div class="faq__item">
+        <div class="faq__question">
+          <h2 class="faq__question-title">
+            What did I learn about CSS from this project?
+          </h2>
+          <button class="faq__toggle">
+            <img src="assets/images/icon-plus.svg" alt="plus icon" />
+          </button>
+          <button class="faq__toggle faq__toggle--close hidden">
+            <img src="assets/images/icon-minus.svg" alt="minus icon" />
+          </button>
+        </div>
+        <div class="faq__answer hidden">
+          <p>
+            1. In media queries, relative length units like <code>em</code> and
+            <code>rem</code> are based on the browser’s initial font size, not
+            on any styles declared in your CSS. This means changes to
+            <code>html { font-size }</code> do not affect media query
+            breakpoints.
+            <a
+              href="https://www.w3.org/TR/mediaqueries-4/#units"
+              target="_blank"
+              rel="noopener"
+              >Reference (CSSWG Media Queries Level 4, §1.3).</a
+            >
+          </p>
+          <p>
+            <a
+              href="https://en.bem.info/methodology/css/#how-to-switch-to-bem-style-css"
+              >2. BEM Naming
+            </a>
+          </p>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <div class="faq__question">
+          <h2 class="faq__question-title">
+            What did I learn about JavaScript from this project?
+          </h2>
+          <button class="faq__toggle">
+            <img src="assets/images/icon-plus.svg" alt="plus icon" />
+          </button>
+          <button class="faq__toggle faq__toggle--close hidden">
+            <img src="assets/images/icon-minus.svg" alt="minus icon" />
+          </button>
+        </div>
+        <div class="faq__answer hidden">
+          <p>
+            <a
+              href="https://www.growingwiththeweb.com/2014/02/async-vs-defer-attributes.html"
+              >Defer vs Async attributes</a
+            >
+          </p>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <div class="faq__question">
+          <h2 class="faq__question-title">
+            What did I learn about HTML from this project?
+          </h2>
+          <button class="faq__toggle">
+            <img src="assets/images/icon-plus.svg" alt="plus icon" />
+          </button>
+          <button class="faq__toggle faq__toggle--close hidden">
+            <img src="assets/images/icon-minus.svg" alt="minus icon" />
+          </button>
+        </div>
+        <div class="faq__answer hidden">
+          <p>
+            To display the literal string <code>&lt;a&gt;</code>, you should
+            use:
+            <code>&amp;lt;a&amp;gt;</code>
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://www.linkedin.com/in/mactracyhuang/">Tracy Huang</a>.
+    </footer>
+  </body>
+</html>
